@@ -8,7 +8,7 @@ dsy1104-meta/
 ├── frontend/       submódulo → dsy1104-frontend (React + Vite)
 ├── docker-compose.yml
 ├── docs/           guías del taller
-└── presentacion/   diapositivas
+└── presentacion/   diapositivas (HTML, publicado en GitHub Pages)
 ```
 
 ## Clonar
@@ -49,3 +49,7 @@ git add backend frontend && git commit -m "Actualiza submódulos"
 ```
 
 Los cambios de código se hacen y se suben dentro de cada submódulo (`cd backend && git commit ... && git push`); después se registra el nuevo commit en este repositorio.
+
+## Presentación
+
+Las diapositivas están en `presentacion/index.html` y se publican en https://donkiwicl.github.io/dsy1104-meta/ mediante el workflow `.github/workflows/pages.yml`.
